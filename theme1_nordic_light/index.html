@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Timber - Custom Sofas, Cabinets & Curtains</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-wrap">
+            <a href="#" class="logo">Nordic<span>Timber</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#work">Our Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-btn" id="menuBtn">&#9776;</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="tag">Local Carpentry Workshop</span>
+                <h1>Simple, Honest Woodwork &amp; Soft Furnishings</h1>
+                <p>Custom-made sofas, clean wooden cabinets, and tailored curtains designed for everyday comfort.</p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn btn-primary">See Designs</a>
+                    <button class="btn btn-outline" id="bookBtn">Free Measurement</button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80" alt="Custom wooden sofa in bright living room">
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work section-pad">
+        <div class="container">
+            <div class="head-center">
+                <h2>Our Craft</h2>
+                <p>Select a category to browse our custom sofas, cabinets, and curtains.</p>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sofa">Sofas</button>
+                <button class="filter-btn" data-filter="cabinet">Cabinets</button>
+                <button class="filter-btn" data-filter="curtain">Curtains</button>
+            </div>
+
+            <div class="grid">
+                <div class="card" data-cat="sofa">
+                    <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=700&q=80" alt="Oak Frame 3-Seater Sofa">
+                    <div class="card-body">
+                        <span class="cat-pill">Sofa</span>
+                        <h3>Oak Frame 3-Seater Sofa</h3>
+                        <p>Solid oak base with breathable linen cushions.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Oak Frame 3-Seater Sofa">Ask Price</button>
+                    </div>
+                </div>
+
+                <div class="card" data-cat="cabinet">
+                    <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=700&q=80" alt="Minimalist Wooden Kitchen Cabinets">
+                    <div class="card-body">
+                        <span class="cat-pill">Cabinet</span>
+                        <h3>Birch Kitchen Cabinets</h3>
+                        <p>Smooth soft-close drawers and water-resistant finish.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Birch Kitchen Cabinets">Ask Price</button>
+                    </div>
+                </div>
+
+                <div class="card" data-cat="curtain">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80" alt="Sheer Cotton Window Curtains">
+                    <div class="card-body">
+                        <span class="cat-pill">Curtains</span>
+                        <h3>Natural Linen Curtains</h3>
+                        <p>Custom-stitched drapes with handcrafted wooden curtain rods.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Natural Linen Curtains">Ask Price</button>
+                    </div>
+                </div>
+
+                <div class="card" data-cat="sofa">
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=700&q=80" alt="Beige Fabric L-Shape Sofa">
+                    <div class="card-body">
+                        <span class="cat-pill">Sofa</span>
+                        <h3>Cozy Corner Sofa</h3>
+                        <p>High-density foam seating built for small &amp; medium living rooms.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Cozy Corner Sofa">Ask Price</button>
+                    </div>
+                </div>
+
+                <div class="card" data-cat="cabinet">
+                    <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=700&q=80" alt="Wooden Storage Cabinet & Wardrobe">
+                    <div class="card-body">
+                        <span class="cat-pill">Cabinet</span>
+                        <h3>Bedroom Storage Wardrobe</h3>
+                        <p>Custom shelving and warm wood laminate exterior.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Bedroom Storage Wardrobe">Ask Price</button>
+                    </div>
+                </div>
+
+                <div class="card" data-cat="curtain">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80" alt="Bedroom Blackout Curtains">
+                    <div class="card-body">
+                        <span class="cat-pill">Curtains</span>
+                        <h3>Bedroom Blackout Drapes</h3>
+                        <p>Light-blocking heavy fabric with smooth wooden track.</p>
+                        <button class="btn btn-sm inquire-btn" data-item="Bedroom Blackout Drapes">Ask Price</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-pad">
+        <div class="container contact-box">
+            <div>
+                <h2>Get a Quick Estimate</h2>
+                <p>Call us or send your room dimensions for a free home visit.</p>
+                <p class="info-line"><strong>Shop:</strong> Shop 8, Green Timber Lane</p>
+                <p class="info-line"><strong>Phone:</strong> +91 98765 43210</p>
+                <button class="btn btn-whatsapp" id="waBtn">WhatsApp Us</button>
+            </div>
+            <form id="contactForm" class="form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <select id="itemSelect">
+                    <option value="Custom Sofa">Custom Sofa</option>
+                    <option value="Wooden Cabinet">Wooden Cabinet</option>
+                    <option value="Custom Curtains">Custom Curtains</option>
+                </select>
+                <textarea id="notes" rows="3" placeholder="Size or design details..."></textarea>
+                <button type="submit" class="btn btn-primary">Send Request</button>
+                <p id="statusMsg" class="status-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nordic Timber Workshop. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Simple Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <span class="close" id="closeModal">&times;</span>
+            <h3>Inquire About Design</h3>
+            <p id="modalLabel" class="modal-label"></p>
+            <form id="modalForm">
+                <input type="text" id="mName" placeholder="Your Name" required>
+                <input type="tel" id="mPhone" placeholder="Mobile Number" required>
+                <button type="submit" class="btn btn-primary" style="width:100%">Call Me Back</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
